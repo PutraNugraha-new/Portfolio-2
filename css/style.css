@@ -1,0 +1,43 @@
+body{
+    background-color: #082032;
+}
+
+.container nav #navbarNavAltMarkup a{
+    color: #FF4C29;
+    font-weight: bold;
+}
+.container nav #navbarNavAltMarkup a:hover {
+    color: #d2d2d2;
+}
+.container .konten h1{
+    color: #D2D2D2;
+    font-size: 35px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+    letter-spacing: 10px;
+    
+}
+.container .konten p{
+    color: #D2D2D2;
+}
+.container .konten i{
+    color: #FF4C29;
+    text-shadow: 2px 2px #d2d2d2;
+}
+.container .konten section {
+    margin: 10px 0 10px 0;
+    width: 30%;
+    border: #FF4C29 1px solid;
+}
+
+
+@media screen and (max-width:576px) {
+    .container .konten h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .container .konten p{
+        font-size: 15px;
+        text-align: center;
+    }
+}
