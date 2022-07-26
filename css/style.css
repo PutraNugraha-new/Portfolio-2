@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #082032;
 }
@@ -23,6 +26,7 @@ body{
 .container .konten i{
     color: #FF4C29;
     text-shadow: 2px 2px #d2d2d2;
+    cursor: pointer;
 }
 .container .konten section {
     margin: 10px 0 10px 0;
